@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/CVestilo.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@600&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>CV Silvia Herrmann</title>
+</head>
+<body>
+   
+
+    <div class="divs divEncabezado">
+        <h1>Silvia Herrmann</h1>
+        <h2>Licenciada en Sistemas</h2>
+    </div>
+    <div class="divs divTrabajo">
+        <h2>Experiencia profesional</h2>
+        <h3>InSSSeP | Desarrolladora de sistemas</h3>
+        <p>Sept. 2010 - Hoy</p>
+        <p>•	Programadora del área de desarrollo de sistemas</p>
+        <h3>Instituto Walsh | Profesora nivel terciario</h3>
+        <p>Mar. 2014 - Hoy</p>
+        <p>•	Profesora en la Tecnicatura Superior en Resolución Pacífica de Conflictos.</p>
+        <h2>Estudios</h2>
+        <h3>Universidad Nacional del Nordeste</h3>
+        <p>•	Licenciada en Sistemas 2003-2006</p>
+        <p>•	Programadora Universitaria 2000-2003</p>
+        <button class="show" id = 'Mproyecto' style="position: absolute;top: 10%;left:30%">Proyectos</button>
+        <button class="show" id = 'Mmateria'style="position: absolute;top: 40%;left:30%">Materias</button>
+
+        <div id = 'oculto' class="div2" style="display:none; position: absolute;top: 1%;left:40%">
+            <button class="hide" id = 'Cproyecto'>Cerrar</button>
+            <ul>
+                <li>Conectividad con prestadores
+                <li>Jubilación On Line
+            </ul>
+        </div>
+       
+        <div id = 'oculto2' class="div2" style="display:none; position: absolute;top: 31%;left:40%">
+            <button class="hide" id = 'Cmateria'>Cerrar</button>
+            <ul>
+                <li>Lógica
+                <li>Negociación
+                <li>Metodología de investigación  
+            </ul>
+        </div> 
+    </div> 
+    <div class="divs divFoto">
+        <img alt="Foto Silvia Herrmann" src="foto\fotoCVSH.jpg" height="297px"width= "204px" > 
+        <div class="divs divComentario" >
+            Especialista en desrarrollo de proyectos de informática en salud y administración pública. 
+        </div>
+        <div class="divs divContacto" >
+            <h3>Contacto</h3>
+            <p>
+              <img alt="icono mail" src="foto\icons8-mail-50.png" width="20" height="20">
+              <a>pp@hotmail.com</a>
+            </p>
+            <p>
+              <img alt="icono phone" src="foto\icons8-teléfono-desconectado-30.png" width="20" height="20">
+              <a>+54 11 1111 111</a>
+            </p>
+        </div>
+     </div>
+        
+    <script src="CVjs/CVprograma.js"></script>
+</body>
+</html>
